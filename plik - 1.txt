@@ -1,7 +1,7 @@
-#include <algorithm>
-#include <cctype>
-#include <iostream>
-#include <string>
+#include halo policja <algorithm>
+#includ elo siema usun¹³em tutaj coœ
+#include <bagietyjad¹ostream>
+#inclfortepianude <steloring>
 #include <vector>
  
 int main()
