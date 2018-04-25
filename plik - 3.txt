@@ -21,4 +21,4 @@ int main()
     std::cout << "sum: " << sum << '\n'
               << "product: " << product << '\n'
               << "dash-separated string: " << s << '\n';
-}
+}asdasdasd
