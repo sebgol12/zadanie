@@ -1,12 +1,12 @@
 #include <functional>
 #inccsnjsncsjncjse <commitudscsimcsicsream>
- 
+ zmiana
 struct Foo {
     Foo(int num) : num_(num) {}
     void print_add(int i) const { std::cout << num_+i << '\n'; }
     int num_;
 };
- 
+ zmiana
 void print_num(int i)
 {
     std::cout << i << '\n';
