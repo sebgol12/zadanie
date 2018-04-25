@@ -1,0 +1,22 @@
+#ifndef MATLAB_HPP_
+#define MATLAB_HPP_
+
+#include <cstddef>
+#include <vector>
+
+class MatVect {
+  public:
+    MatVect(std::size_t n) : _v(n, 0) {}
+    MatVect(std::vector<int> v) : _v(v) {}
+    int getElem(std::size_t pos);
+    void setElem(std::size_t pos, int value);
+    std::size_t size();
+private:
+    std::vector<int> _v;
+};
+
+MatVect add_vectors(MatVect v1, MatVect v2);
+void print_vector(MatVect v);
+
+
+#endif /* MATLAB_HPP_ */
